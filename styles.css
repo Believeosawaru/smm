@@ -11,6 +11,9 @@ a {
     color: currentColor;
     text-decoration: none;
 }
+a:hover {
+    cursor: pointer;
+}
 header nav {
     width: 100%;
     padding: 8px 15px;
@@ -18,6 +21,9 @@ header nav {
     display: grid;
     align-items: center;
     background: blue;
+    /* position: fixed;
+    top: 0; */
+    opacity: .8;
 }
 header nav div {
     position: absolute;
@@ -42,6 +48,10 @@ header nav span {
 }
 header nav i {
     color: white;
+}
+menu {
+    background: inherit;
+    padding: 20px;
 }
 button:hover, i:hover {
     cursor: pointer;
@@ -82,7 +92,6 @@ header img {
     border-radius: 5px;
 }
 .hero-btn-1 {
-    /* background: rgb(240, 240, 240); */
     background: blue;
     color: white;
 }
@@ -119,4 +128,52 @@ section h2 {
 }
 .margin-topper {
     margin-top: 60px;
+}
+.to-top {
+    background: blue;
+    color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+.menu {
+    margin-block: 20px;
+    margin-inline-start: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    line-height: 2em;
+    background-color: rgb(240, 240, 240);
+    opacity: .1;
+    position: absolute;
+    right: -420px;
+    width: 100%;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+}
+.show-menu {
+    visibility: visible;
+    right: -20px;
+    opacity: .95;
+}
+.close-menu {
+    visibility: hidden;
+    right: -420px;
+    opacity: .1;
+}
+.menu button {
+    border: none;
+    padding: 5px 20px;
+    margin-block: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+}
+.menu button:last-child {
+    background: none;
+    color: black;
+    border: 1px solid blue;
 }

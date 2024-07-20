@@ -21,9 +21,17 @@
             <span>DSMM</span>
           <div>
             <button>Sign in</button>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" onclick="showMenu();"></i>
           </div>
         </nav>
+
+        <div class="menu">
+            <p><a href="/">Home</a></p>
+            <p><a href="#about">About</a></p>
+            <p><a href="#why-dsmm">Why DSMM</a></p>
+            <p><a href="#dashboard">Dashboard</a></p>
+            <p><button><a href="sign-in.html">Sign In</a></button> <button><a href="sign-up.html">Sign Up</a></button></p>
+        </div>
 
         <div class="caption">
         <p class="t-center">~Hello Friend~ &#128075;</p>
@@ -42,18 +50,18 @@
 
         <div class="display-center">
             <button class="hero-btn-1">Boost Now</button>
-            <button class="hero-btn-2"><a href="#why-smm">Why WSMM</a></button>
+            <button class="hero-btn-2"><a href="#why-dsmm">Why WSMM</a></button>
         </div>
     </header>
 
     <section>
-        <p class="t-center">~Who Are We~</p>
+        <p class="t-center" id="about">~Who Are We~</p>
         <h2>Discover More About Us</h2>
 
         <p>At DSMM, we specialize in providing top-notch Social Media Marketing services through our advanced SMM panel. Whether you're an individual influencer, a small business, or a large corporation, our platform is designed to enhance your social media presence efficiently and effectively.</p>
     </section>
 
-    <section class="margin-topper" id="why-smm">
+    <section class="margin-topper" id="why-dsmm">
         <p class="t-center">~Why Choose Us~</p>
         <h2>We're The Best SMM Platform</h2>
 
@@ -83,5 +91,13 @@
                  </div>
             </div>
     </section>
+
+    <footer>
+        <span class="to-top" onclick="headToTop();">
+            |
+        </span>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

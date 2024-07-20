@@ -9,10 +9,11 @@ body {
 }
 header nav {
     width: 100%;
-    padding: 8px 20px;
-    box-shadow: 0.001px 0.001px 2.5px rgba(0, 0, 0, .95);
+    padding: 8px 15px;
+    box-shadow: 01px 01px 2.5px rgba(0, 0, 0, .95);
     display: grid;
     align-items: center;
+    background: blue;
 }
 header nav div {
     position: absolute;
@@ -23,17 +24,20 @@ header nav div {
     align-items: center;
 }
 header nav button {
-    background: blue;
+    background: white;
     padding: 3px 15px;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: black;
     margin: 0px 10px;
     font-weight: bold;
 }
 header nav span {
     font-family: "Playwrite AR", cursive;
-    color: blue;
+    color: white;
+}
+header nav i {
+    color: white;
 }
 .caption {
     margin: 55px;

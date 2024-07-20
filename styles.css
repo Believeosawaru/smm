@@ -5,7 +5,7 @@
 }
 body {
     background: white;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 header nav {
     width: 100%;
@@ -81,4 +81,35 @@ header img {
     /* background: rgb(240, 240, 240); */
     background: blue;
     color: white;
+}
+section {
+    background: rgb(240, 240, 240);
+    text-align: center;
+    padding: 20px;
+    margin-block: 30px;
+}
+section h3 {
+    color: blue;
+    font-family: "Kanit", sans-serif;
+    margin-block: 10px;
+}
+.company-vals {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    margin-top: 50px;
+}
+/* section svg {
+    fill: blue;
+} */
+.flexy {
+    display: flex;
+    margin-block: 20px;
+}
+.flexy div {
+    margin-left: 30px;
+}
+.flexy img {
+    width: 80px;
+    margin-inline: 20px;
 }

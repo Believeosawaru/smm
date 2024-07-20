@@ -9,7 +9,7 @@ body {
 }
 header nav {
     width: 100%;
-    padding: 8px 15px;
+    padding: 8px 20px;
     box-shadow: 0.001px 0.001px 2.5px rgba(0, 0, 0, .95);
 }
 header nav div {
@@ -17,6 +17,8 @@ header nav div {
     right: 20px;
     top: 15px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header nav button {
     background: blue;
@@ -27,15 +29,12 @@ header nav button {
     margin: 0px 10px;
     font-weight: bold;
 }
-header nav i {
-    margin-top: 2px;
-}
 header nav span {
     font-family: "Playwrite AR", cursive;
     color: blue;
 }
 .caption {
-    margin: 30px;
+    margin: 55px;
     display: grid;
     justify-content: center;
 }
@@ -46,6 +45,7 @@ header nav span {
 header div h2 {
     color: blue;
     font-family: "Kanit", sans-serif;
+    text-align: center;
 }
 header img {
     width: 50%;

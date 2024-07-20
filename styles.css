@@ -39,6 +39,9 @@ header nav span {
 header nav i {
     color: white;
 }
+button:hover, i:hover {
+    cursor: pointer;
+}
 .caption {
     margin: 55px;
     display: grid;
@@ -48,10 +51,15 @@ header nav i {
     text-align: center;
     font-family: "Poppins", sans-serif;
 }
+.bold-text {
+    font-weight: bold;
+    margin-top: 10px;
+}
 header div h2 {
     color: blue;
     font-family: "Kanit", sans-serif;
     text-align: center;
+    margin-top: 15px;
 }
 header img {
     width: 85%;

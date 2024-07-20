@@ -11,6 +11,8 @@ header nav {
     width: 100%;
     padding: 8px 20px;
     box-shadow: 0.001px 0.001px 2.5px rgba(0, 0, 0, .95);
+    display: grid;
+    align-items: center;
 }
 header nav div {
     position: absolute;

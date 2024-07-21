@@ -5,10 +5,53 @@
 }
 body {
     padding: 20px;
+    font-family: "Poppins", sans-serif;
+}
+h2 {
+    font-family: "Kanit", sans-serif;
+    color: blue;
 }
 form {
     margin-block: 20px;
+    background: rgb(240, 240, 240);
+    padding: 30px 20px;
+    border-radius: 3px;
 }
 form input {
-    margin-block: 10px;
+    margin: 10px 0px 25px 0px;
+    width: 95%;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(240, 240, 240);
+}
+form input:focus {
+    border: 1px solid blue;
+}
+form button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    width: 95%;
+    margin-block: 20px;
+    border-radius: 6px;
+}
+form button:hover {
+    cursor: pointer;
+}
+form span {
+    text-align: center;
+}
+.left-align {
+    display: flex;
+    justify-content: right;
+    margin-inline: 20px;
+}
+a {
+    text-decoration: underline;
+    color: blue;
+}
+.sign-in-btn {
+    margin-top: 10px;
 }

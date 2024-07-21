@@ -202,3 +202,16 @@ footer {
     position: absolute;
     right: 20px;
 }
+@media screen and (min-width: 900px) {
+    .hero-img {
+        display: none;
+    }
+    aside {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+    }
+    .pc-hero-img {
+        width: 50%;
+    }
+}

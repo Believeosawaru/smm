@@ -196,3 +196,8 @@ footer {
     margin-top: 30px;
     text-align: center;
 }
+.pin {
+    width: 20px;
+    position: absolute;
+    right: 20px;
+}

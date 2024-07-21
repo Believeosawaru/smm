@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    padding: 20px;
+}
+form {
+    margin-block: 20px;
+}
+form input {
+    margin-block: 10px;
+}

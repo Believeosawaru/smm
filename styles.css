@@ -21,9 +21,10 @@ header nav {
     display: grid;
     align-items: center;
     background: blue;
-    /* position: fixed;
-    top: 0; */
+    position: fixed;
+    top: 0;
     opacity: .8;
+    z-index: 10000;
 }
 header nav div {
     position: absolute;
@@ -42,7 +43,7 @@ header nav button {
     margin: 0px 10px;
     font-weight: bold;
 }
-header nav span {
+header nav span, footer h3:first-child {
     font-family: "Playwrite AR", cursive;
     color: white;
 }
@@ -57,7 +58,7 @@ button:hover, i:hover {
     cursor: pointer;
 }
 .caption {
-    margin: 55px 0px 20px 0px;
+    margin: 85px 0px 20px 0px;
     display: grid;
     justify-content: center;
 }
@@ -112,9 +113,6 @@ section h2 {
     text-align: left;
     margin-top: 35px;
 }
-/* section svg {
-    fill: blue;
-} */
 .flexy {
     display: flex;
     margin-block: 20px;
@@ -125,42 +123,36 @@ section h2 {
 .flexy img {
     width: 70px;
     margin-inline: 20px;
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
 }
 .margin-topper {
     margin-top: 60px;
 }
-.to-top {
-    background: blue;
-    color: white;
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    display: none;
-}
 .menu {
-    margin-block: 20px;
-    margin-inline-start: 20px;
+    margin-block: 10px;
     border-radius: 10px;
     padding: 15px;
     line-height: 2em;
     background-color: rgb(240, 240, 240);
     opacity: .1;
     position: absolute;
-    right: -420px;
-    width: 100%;
+    right: 0;
+    top: 60px;
+    width: 50%;
     visibility: hidden;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .show-menu {
     visibility: visible;
-    right: -20px;
-    opacity: .95;
+    right: 1;
+    opacity: .99;
+    width: 90%;
 }
 .close-menu {
     visibility: hidden;
-    right: -420px;
+    right: 0;
     opacity: .1;
 }
 .menu button {
@@ -176,4 +168,31 @@ section h2 {
     background: none;
     color: black;
     border: 1px solid blue;
+}
+.to-top {
+    background: blue;
+    color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20px;
+    display: none;
+}
+.to-top img {
+    width: 100%;
+}
+footer {
+    background: blue;
+    color: white;
+    padding: 25px 15px;
+    margin-block-start: 70px;
+}
+.contact-h3 {
+    margin-top: 20px;
+}
+.rights {
+    margin-top: 30px;
+    text-align: center;
 }

@@ -122,6 +122,7 @@ section h2 {
 }
 .flexy img {
     width: 90px;
+    height: 90px;
     margin-inline: 20px;
     border: 2px solid blue;
     padding: 5px;

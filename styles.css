@@ -214,31 +214,16 @@ footer {
     display: grid;
     align-items: center;
     margin-block: 40px;
-    padding: 25px 35px;
+    padding: 25px 0px;
 }
-.gallery div:first-child {
+.gallery div {
     display: flex;
-    justify-content: flex-start;
-}
-.gallery div:last-child {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 10px;
+    justify-content: space-around;
+    margin-block: 10px;
 }
 .gallery img {
     border-radius: 10px;
-    margin: 15px;
-}
-.bigger {
-    width: 45%;
-}
-.smaller {
-    width: 35%;
-    height: 200px;
-    margin-top: 60px;
-}
-#down {
-    margin-top: 70px;
+    width: 40%;
 }
 
 @media screen and (min-width: 900px) {
@@ -318,9 +303,10 @@ footer {
     }
     .pc-flex section {
         order: 2;
-        height: 310px;
         margin-right: 50px;
-        margin-top: 150px;
+        margin-top: 270px;
+        height: 450px;
+        padding: 20px;
     }
     .pin:first-child {
         right: 150px;
@@ -328,17 +314,13 @@ footer {
     .pc-flex div {
         order: 1;
     }
-    #down {
-        margin-top: 200px;
-    }
-    .gallery div:first-child {
+    .gallery div {
         display: flex;
-        justify-content: flex-start;
-        margin-left: 100px;
+        justify-content: center;
+        margin: 0;
     }
-    .gallery div:last-child {
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 10px;
+    .gallery img {
+        width: 30%;
+        margin: 15px;
     }
 }

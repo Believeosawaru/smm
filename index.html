@@ -19,9 +19,17 @@
     <header>
         <nav>
             <span>DSMM</span>
-          <div>
+
+            <div class="pc-menu">
+                <a href="/">Home</a>
+                <a href="#about">About</a></p>
+                <a href="#why-dsmm">Why DSMM</a>
+                <a href="sign-in.html">Dashboard</a>
+                </div>
+            
+          <div class="pc-btn">
             <button><a href="sign-in.html">Sign in</a></button>
-            <i class="fa fa-bars" onclick="showMenu();"></i>
+            <i class="fa fa-bars pc-hide" onclick="showMenu();"></i>
           </div>
         </nav>
 
@@ -29,12 +37,12 @@
             <p><a href="/">Home</a></p>
             <p><a href="#about">About</a></p>
             <p><a href="#why-dsmm">Why DSMM</a></p>
-            <p><a href="#dashboard">Dashboard</a></p>
+            <p><a href="sign-in.html">Dashboard</a></p>
             <p><button><a href="sign-in.html">Sign In</a></button> <button><a href="sign-up.html">Sign Up</a></button></p>
         </div>
 
         <aside>
-        <div>
+        <div class="pc-hero-1">
         <div class="caption">
         <p class="t-center">~Hello Friend~ &#128075;</p>
         <h1>
@@ -46,11 +54,11 @@
         <img src="images/home-img.jpg" class="hero-img" alt="Social Images">
         </div>
 
-        <div class="display-center">
+        <div class="display-center texts">
             <p class="t-center bold-text">*Get 10k+ likes and organic comments <br> in under 7 days</p>
         </div>
 
-        <div class="display-center">
+        <div class="display-center buttons">
             <button class="hero-btn-1">Boost Now</button>
             <button class="hero-btn-2"><a href="#why-dsmm">Why WSMM</a></button>
         </div>
@@ -65,12 +73,26 @@
 
     </header>
 
-    <section>
-        <p class="t-center" id="about">~Who Are We~ <img src="images/pin.svg" alt="" class="pin"></p>
+    <div class="pc-flex">
+    <section id="about">
+        <p class="t-center">~Who Are We~ <img src="images/pin.svg" alt="" class="pin"></p>
         <h2>Discover More About Us</h2>
 
         <p>At DSMM, we specialize in providing top-notch Youtube Marketing services through our advanced SMM panel. Whether you're an individual influencer, a small business, or a large corporation, our platform is designed to enhance your Youtube presence efficiently and effectively.</p>
     </section>
+
+    <div class="gallery">
+        <div>
+            <img src="images/img-2.jpg" alt="" class="bigger pc-bigger">
+            <img src="images/img-6.jpg" alt="" class="smaller pc-smaller" id="down">
+        </div>
+
+        <div>
+            <img src="images/img-3.jpg" alt="" class="smaller">
+            <img src="images/img-7.jpg" alt="" class="bigger">
+        </div>
+    </div>
+    </div>
 
     <section class="margin-topper" id="why-dsmm">
         <p class="t-center">~Why Choose Us~ <img src="images/pin.svg" alt="" class="pin"></p>

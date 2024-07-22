@@ -10,6 +10,7 @@ body {
 h2 {
     font-family: "Kanit", sans-serif;
     color: blue;
+    margin-top: 50px;
 }
 form {
     margin-block: 20px;
@@ -26,7 +27,7 @@ form input {
     border: 1px solid rgb(240, 240, 240);
 }
 form input:focus {
-    border: 1px solid blue;
+    border: 2px solid blue;
 }
 form button {
     background: blue;
@@ -51,7 +52,24 @@ form span {
 a {
     text-decoration: underline;
     color: blue;
+    font-weight: bold;
 }
 .sign-in-btn {
     margin-top: 10px;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        padding-inline: 250px;
+    }
+    label {
+        font-size: 1.1rem;
+    }
+    button {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .left-align {
+        margin-inline: 35px;
+    }
 }

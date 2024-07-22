@@ -202,6 +202,43 @@ footer {
     position: absolute;
     right: 20px;
 }
+.pc-hero-img {
+    display: none;
+}
+.pc-menu {
+    display: none;
+}
+.gallery {
+    display: grid;
+    align-items: center;
+    margin-block: 40px;
+    padding: 25px 35px;
+}
+.gallery div:first-child {
+    display: flex;
+    justify-content: flex-start;
+}
+.gallery div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.gallery img {
+    border-radius: 10px;
+    margin: 15px;
+}
+.bigger {
+    width: 40%;
+}
+.smaller {
+    width: 30%;
+    height: 200px;
+    margin-top: 60px;
+}
+#down {
+    margin-top: 70px;
+}
+
 @media screen and (min-width: 900px) {
     .hero-img {
         display: none;
@@ -209,9 +246,97 @@ footer {
     aside {
         display: grid;
         grid-template-columns: auto auto;
-        align-items: center;
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    aside h1 {
+        font-size: 2rem;
     }
     .pc-hero-img {
-        width: 50%;
+        width: 70%;
+        display: block;
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+    .pc-hero-1 {
+        margin-left: -200px;
+        margin-top: 60px;
+    }
+    .texts {
+        margin-top: -20px;
+    }
+    .hero-btn-1, .hero-btn-2 {
+    border: none;
+    padding: 10px 30px;
+    margin: 15px 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    }
+    .company-vals {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .pc-menu {
+        display: flex;
+        margin-right: 200px;
+        color: white;
+    }
+    .pc-menu a {
+        margin-inline: 5px;
+    }
+    .pc-menu a:hover {
+        color: rgb(240, 240, 240);
+    }
+    .pc-hide {
+        display: none;
+    }
+    .pc-btn {
+        margin-right: 100px;
+        margin-top: 1px;
+    }
+    nav span {
+        margin-left: 70px;
+    }
+    #about {
+        padding-inline: 70px;
+        padding-bottom: 30px;
+        margin-right: 130px;
+    }
+    #about h2 {
+        margin-bottom: 20px;
+    }
+    .menu {
+        display: none;
+    }
+    .pc-flex {
+        display: flex;
+        justify-content: center;
+    }
+    .pc-flex section {
+        order: 2;
+        height: 310px;
+        margin-right: 50px;
+        margin-top: 150px;
+    }
+    .pin:first-child {
+        right: 150px;
+    }
+    .pc-flex div {
+        order: 1;
+    }
+    #down {
+        margin-top: 200px;
+    }
+    .gallery div:first-child {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 100px;
+    }
+    .gallery div:last-child {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
     }
 }

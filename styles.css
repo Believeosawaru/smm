@@ -99,14 +99,14 @@ header img {
 }
 section {
     background: rgb(240, 240, 240);
-    text-align: center;
     padding: 20px;
     margin-block: 30px;
 }
 section h2 {
     color: blue;
     font-family: "Kanit", sans-serif;
-    margin-block: 10px;
+    margin-block: 10px; 
+    text-align: center;
 }
 .company-vals {
     display: grid;
@@ -225,6 +225,11 @@ footer {
 .gallery img {
     border-radius: 10px;
     width: 40%;
+}
+.highlight {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 900px) {
